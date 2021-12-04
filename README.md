@@ -3,9 +3,9 @@
                          
 Перейти по ссылке и ознакомиться с [описанием базы данных](https://edu.postgrespro.ru/bookings.pdf)
 
-В работе использовался локальный тип подключения, [скриншот](https://github.com/520911/SQL-final/blob/main/localhost_db_er.jpg)
+В работе использовался локальный тип подключения, ![скриншот](https://github.com/520911/SQL-final/blob/main/localhost_db_er.png)
 
-![](https://github.com/520911/SQL-final/blob/main/avia.backup)
+[Ссылка на бэкап базы данных](https://github.com/520911/SQL-final/blob/main/avia.backup)
 
 ### Краткое описание БД - из каких таблиц и представлений состоит.
 
