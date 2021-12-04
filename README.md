@@ -79,10 +79,22 @@
 - **passenger_name**, **тип данных** - text, **ограничения** - not null, **комментарий** - Имя пассажира
 - **contact_data**, **тип данных** - jsonb, **комментарий** - Контактные данные пассажира
 
+#### Представление **flights_v**:
 
+**Над таблицей flights создано представление flights_v, содержащее дополнительную информацию:**
+- Расшифровку данных об аэропорте вылета
+    (departure_airport, departure_airport_name, departure_city),
+ - Расшифровку данных об аэропорте прибытия
+    (arrival_airport, arrival_airport_name, arrival_city),
+ - Местное время вылета
+    (scheduled_departure_local, actual_departure_local),
+ - Местное время прибытия
+    (scheduled_arrival_local, actual_arrival_local),
+ - Продолжительность полета
+    (scheduled_duration, actual_duration)
 
+#### Представление **routes**:
 
-
-
+Можно выделить информацию о маршруте (номер рейса, аэропорты отправления и назначения), которая не зависит от конкретных дат рейсов.
 
 
